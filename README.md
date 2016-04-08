@@ -6,7 +6,7 @@ Wad enables you to use data that use DOOM's WAD file format.
 
 ### Reading
 
-This code snipped shows you how to open a WAD file and how to obtain an `InputStream` for each entry:
+This code snippet shows you how to open a WAD file and how to obtain an `InputStream` for each entry:
 
 ```java
     try (WadFile wadFile = new WadFile("path/to/DOOM.wad")) {
