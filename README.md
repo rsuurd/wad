@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rsuurd/wad.svg?branch=master)](https://travis-ci.org/rsuurd/wad)
+
 ## Wad
 
 Wad enables you to use data that use DOOM's WAD file format.
@@ -30,4 +32,3 @@ To create your own WAD files:
     wadOutputStream.closeEntry();
     wadOutputStream.close();
 ```
-
